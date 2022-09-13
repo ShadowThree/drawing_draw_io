@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T07:33:02.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QwmG2Hr4n9CRazZRn2te" version="20.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-13T08:45:04.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="M_z2Vw2Ki_i1lv7f6YXM" version="20.1.2" type="github">
   <diagram id="umuWkSU3yIFX7GFmM5Sn" name="Page-1">
-    <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="366" y="160" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-4" value="系统状态监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="516" y="160" width="90" height="30" as="geometry" />
+          <mxGeometry x="676" y="160" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="dy6qlffycjO_kxXFmytK-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -24,8 +24,8 @@
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560.5" y="490" as="sourcePoint" />
-            <mxPoint x="560.5" y="190" as="targetPoint" />
+            <mxPoint x="720.5" y="490" as="sourcePoint" />
+            <mxPoint x="720.5" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
@@ -93,47 +93,47 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dy6qlffycjO_kxXFmytK-19" value="执行命令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="421" y="352" width="70" height="30" as="geometry" />
+        <mxCell id="dy6qlffycjO_kxXFmytK-19" value="执行命令&lt;br&gt;修改程序状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="347" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="566" y="210" as="sourcePoint" />
-            <mxPoint x="566" y="240" as="targetPoint" />
+            <mxPoint x="726" y="210" as="sourcePoint" />
+            <mxPoint x="726" y="240" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="586" y="210" />
-              <mxPoint x="586" y="240" />
+              <mxPoint x="746" y="210" />
+              <mxPoint x="746" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-21" value="监控系统状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="574" y="210" width="100" height="30" as="geometry" />
+          <mxGeometry x="734" y="210" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="565" y="315" as="sourcePoint" />
-            <mxPoint x="565" y="345" as="targetPoint" />
+            <mxPoint x="725" y="315" as="sourcePoint" />
+            <mxPoint x="725" y="345" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="585" y="315" />
-              <mxPoint x="585" y="345" />
+              <mxPoint x="745" y="315" />
+              <mxPoint x="745" y="345" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-23" value="监控系统状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="573" y="315" width="100" height="30" as="geometry" />
+          <mxGeometry x="733" y="315" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="565" y="420" as="sourcePoint" />
-            <mxPoint x="565" y="450" as="targetPoint" />
+            <mxPoint x="725" y="420" as="sourcePoint" />
+            <mxPoint x="725" y="450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="585" y="420" />
-              <mxPoint x="585" y="450" />
+              <mxPoint x="745" y="420" />
+              <mxPoint x="745" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-25" value="监控系统状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="573" y="420" width="100" height="30" as="geometry" />
+          <mxGeometry x="733" y="420" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -155,6 +155,37 @@
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-30" value="发送命令结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="109" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dy6qlffycjO_kxXFmytK-31" value="温度控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dy6qlffycjO_kxXFmytK-32" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560.5" y="490" as="sourcePoint" />
+            <mxPoint x="560.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dy6qlffycjO_kxXFmytK-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="430" as="sourcePoint" />
+            <mxPoint x="560" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="585" y="430" />
+              <mxPoint x="585" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dy6qlffycjO_kxXFmytK-38" value="Loop:&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;执行温度控制算法&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dy6qlffycjO_kxXFmytK-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="560" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dy6qlffycjO_kxXFmytK-40" value="使能温度控制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="424" y="405" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
