@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T07:17:27.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="U9lue1ghhcaH-ESOQPxn" version="20.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-13T07:33:02.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QwmG2Hr4n9CRazZRn2te" version="20.1.2" type="github">
   <diagram id="umuWkSU3yIFX7GFmM5Sn" name="Page-1">
     <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -68,33 +68,33 @@
             <mxPoint x="80" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dy6qlffycjO_kxXFmytK-14" value="如果命令错误" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="118" y="267" width="100" height="30" as="geometry" />
+        <mxCell id="dy6qlffycjO_kxXFmytK-14" value="返回命令检查结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="111" y="269" width="114" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="dy6qlffycjO_kxXFmytK-15" value="发送错误码，&lt;br&gt;并通过RTT输出log" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="108" y="290" width="120" height="40" as="geometry" />
+        <mxCell id="dy6qlffycjO_kxXFmytK-15" value="若命令错误，发送错误码，&lt;br&gt;并输出错误说明" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="87" y="290" width="162" height="41" as="geometry" />
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="340" as="sourcePoint" />
-            <mxPoint x="400" y="340" as="targetPoint" />
+            <mxPoint x="250" y="345" as="sourcePoint" />
+            <mxPoint x="400" y="345" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dy6qlffycjO_kxXFmytK-17" value="命令正确" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="290" y="315" width="70" height="30" as="geometry" />
+        <mxCell id="dy6qlffycjO_kxXFmytK-17" value="命令码及参数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="322" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="406" y="340" as="sourcePoint" />
-            <mxPoint x="406" y="390" as="targetPoint" />
+            <mxPoint x="406" y="345" as="sourcePoint" />
+            <mxPoint x="406" y="395" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="426" y="340" />
-              <mxPoint x="426" y="390" />
+              <mxPoint x="426" y="345" />
+              <mxPoint x="426" y="395" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-19" value="执行命令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="421" y="348" width="70" height="30" as="geometry" />
+          <mxGeometry x="421" y="352" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -137,24 +137,24 @@
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="394" y="391" as="sourcePoint" />
-            <mxPoint x="244" y="391" as="targetPoint" />
+            <mxPoint x="394" y="396" as="sourcePoint" />
+            <mxPoint x="244" y="396" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-27" value="命令执行完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="272" y="367" width="100" height="30" as="geometry" />
+          <mxGeometry x="272" y="372" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-28" value="返回命令执行结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="264" y="388" width="120" height="30" as="geometry" />
+          <mxGeometry x="264" y="393" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="234" y="420" as="sourcePoint" />
-            <mxPoint x="84" y="420" as="targetPoint" />
+            <mxPoint x="234" y="425" as="sourcePoint" />
+            <mxPoint x="84" y="425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dy6qlffycjO_kxXFmytK-30" value="发送命令结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="109" y="395" width="100" height="30" as="geometry" />
+          <mxGeometry x="109" y="400" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
