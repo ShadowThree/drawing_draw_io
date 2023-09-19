@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T10:24:17.668Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="KAqGW36Giw_RnuhcPJMC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T10:59:36.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="WzncW_Pci8Z0Eu_HgS2b" version="21.7.5" type="github">
   <diagram name="第 1 页" id="CyJXsQDoycbQX6E6w-BX">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1118" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WhkvKs6wXhMd2oeImKps-1" value="MCU" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-2" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;驱动器&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;br&gt;功能：&lt;br style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp; 1. 设置细分；&lt;br&gt;&amp;nbsp; 2. 设置电流大&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 小；" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.167;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=1;fontSize=16;" edge="1" parent="1" source="WhkvKs6wXhMd2oeImKps-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="600" as="sourcePoint" />
+            <mxPoint x="280" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1;fontSize=16;" edge="1" parent="1" source="WhkvKs6wXhMd2oeImKps-1" target="WhkvKs6wXhMd2oeImKps-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="600" as="sourcePoint" />
+            <mxPoint x="440" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.014;exitY=0.828;exitDx=0;exitDy=0;entryX=0;entryY=0.697;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;fontStyle=1;fontSize=16;" edge="1" parent="1" source="WhkvKs6wXhMd2oeImKps-1" target="WhkvKs6wXhMd2oeImKps-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="600" as="sourcePoint" />
+            <mxPoint x="440" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-6" value="Motor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontStyle=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="398" y="250" as="sourcePoint" />
+            <mxPoint x="468" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontStyle=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="401" y="280" as="sourcePoint" />
+            <mxPoint x="467" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontStyle=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="319" as="sourcePoint" />
+            <mxPoint x="466" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontStyle=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="466" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-11" value="A+" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="410" y="227" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-12" value="A-" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="256" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-13" value="B+" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="409" y="297" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-14" value="B-" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="410" y="336" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-15" value="DIR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="210" y="238" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-16" value="PWM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="205" y="276" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-17" value="EN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="208" y="316" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WhkvKs6wXhMd2oeImKps-18" value="1. 电机驱动器输入信号有电机转动方向信号DIR，电机转速信号PWM，电机使能信号EN；&lt;br&gt;2. 电机驱动器输出信号根据电机决定，以一般的两相电机为例，有A+，A-，B+，B- 四路信号；&lt;br&gt;3. 电机驱动器的EN输入信号有效时，电机根据DIR和PWM信号旋转，否则停止；&lt;br&gt;4. 电机驱动器的DIR输入信号是通过控制给A+，A-，B+，B-各个相位线组提供不同的电流时序决定的；&lt;br&gt;5. PWM信号可以控制电机转速，但是不是唯一的控制因素，还和驱动器的细分设置相关；对于一个转子齿数为50的两相步进电机来说，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;如果驱动器细分设置为64，则需要4*50*64=12800个PWM波形才能使电机旋转一圈；&lt;br&gt;6. 驱动器通过改变A+，A-，B+，B-各个相位绕组电流大小的方式实现驱动器设置的细分。&lt;br&gt;7. 设置电流大小是为了功耗方面考虑，不是每个驱动器都有的功能；" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="51" y="418" width="736" height="260" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
