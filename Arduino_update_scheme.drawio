@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T03:18:05.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="AlJZST6f9Li3gB7JkKvP" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T06:13:36.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="rN5xPhaOoPqFqedonUq0" version="22.0.8" type="github">
   <diagram name="第 1 页" id="6WY-a0RJQl_VtvXdREuj">
     <mxGraphModel dx="2074" dy="1118" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,8 +42,8 @@
         <mxCell id="i-A8Fx03CHumYEkmey0p-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Tx&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="366" y="463" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i-A8Fx03CHumYEkmey0p-10" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;1. If I want to use Uart to update the firmware of MCU, I need the bootloader, so Which one do I need to use? Or do I need to realize it by myself?&lt;br&gt;&lt;br&gt;2. I want to reset the MCU and enter the bootloader when the MCU receives a special command from the PC. How to reset the MCU and jump to the bootloader?&lt;br&gt;&lt;br&gt;3. I do want to use my App, NOT Arduino IDE, to finish the update. Which protocol should I use?&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="24" y="544" width="561" height="149" as="geometry" />
+        <mxCell id="i-A8Fx03CHumYEkmey0p-10" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;1. If I want to use Uart to update the firmware of MCU, I need the bootloader, so Which one do I need to use? Or do I need to realize it by myself?&lt;br&gt;&lt;br&gt;2. I want to reset the MCU and enter the bootloader when the MCU receives a special command from the PC. How to reset the MCU and jump to the bootloader?&lt;br&gt;&lt;br&gt;3. I do want to use my App, NOT Arduino IDE, to finish the update. Which protocol should I use?&lt;br&gt;&lt;br&gt;4. Which file needs to be sent to the MCU? What I only can find is the *.ino project file(with source code), but I think I need to send the binary file, yes? How to compiler and keep the binary file that I can use to update?&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="37" y="543" width="561" height="236" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
